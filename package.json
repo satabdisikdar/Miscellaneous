@@ -1,0 +1,18 @@
+{
+  "name": "demotest",
+  "version": "1.0.0",
+  "description": "Demo Practice",
+  "main": "practice.js",
+  "scripts": {
+    "test": "cucumber-js --require-module babel-core/register --require test/support --format node_modules/cucumber-pretty --format json:./reports/cucumber.json --require hooks.js --tags $TAG"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^2.40.0",
+    "cucumber": "^5.1.0",
+    "cucumber-pretty": "^1.5.0",
+    "nightwatch": "^1.1.13",
+    "nightwatch-api": "^2.2.0"
+  }
+}
