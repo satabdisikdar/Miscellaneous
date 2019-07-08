@@ -1,15 +1,15 @@
 const { Given, Then, When} = require('cucumber');
 const { client } = require('nightwatch-api');
+const ele = client.page.elements();
 
 Given("I am on splitwise page",function(){
   client.url('https://www.splitwise.com/')
   .waitForElementVisible('body').useXpath()
-  .assert.elementPresent('//a[text()="Sign up"]')
+  .assert.elementPresent('body')
 });
 
 When("I click on {string}", function(option){
-    let selector = '//a[text()="${option}"]';
-    client.waitForElementVisible(selector).click(selector);
+    ele.waitForElementVisible('@signUpButton').click('@signUpButton');
 });
 
 Then("I see {string} in the page", function(option){
