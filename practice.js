@@ -9,6 +9,7 @@ Given("I am on {string} page",async function(homeLink){
 });
 
 When("I click on {string}", async function(option){
+    console.log("WHEN TAG starts!!");
     await ele.waitForElementVisible('@signUpButton').click('@signUpButton');
 });
 
