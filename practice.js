@@ -4,6 +4,7 @@ const ele = client.page.elements();
 
 Given("I am on {string} page",async function(homeLink){
   await client.url('https://www.splitwise.com/');
+  await client.pause(500);
   await ele.waitForElementVisible(`@${homeLink}Home`).assert.elementPresent(`@${homeLink}Home`);
 });
 
