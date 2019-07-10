@@ -1,7 +1,8 @@
 module.exports = {
     elements: {
-        signUpButton: '//a[text()="Sign up"]',
-        legendItem: '.legend-item'
-    }
+        splitwiseHome: '.flex .items-center',
+        signUpButton: '.bg-teal',
+        legendItem: '.legend-item',
+    },
 }
 
