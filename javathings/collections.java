@@ -16,10 +16,10 @@ public class collections {
         
         }
         catch(Exception e){
-
+            e.printStackTrace();
         }
         finally{
-
+            System.out.println("Complete!");
         }
         
 

@@ -1,0 +1,44 @@
+{
+    "public_id": "221388ea-5070-409c-91ae-604a0201edc2",
+    "pillar_id": 71,
+    "page_url": "https://prosandcontent.knotch.com/posts/virtual-conferences-are-the-future",
+    "title": "Virtual Conferences Are The Future",
+    "publish_date": "2020-11-04T07:26:17.917412",
+    "content_type": "owned",
+    "num_words": 82,
+    "article_length": "short",
+    "category": {
+        "value": "business & industrial",
+        "blueprint_content_id": 2287092
+    },
+    "keyword_tags": [{
+            "id": 1,
+            "value": "fireside"
+        },
+        {
+            "id": 2,
+            "value": "content"
+        },
+        {
+            "id": 3,
+            "value": "founder"
+        },
+        {
+            "id": 4,
+            "value": "chat"
+        }
+    ],
+    "num_shares": 0,
+    "num_seconds_reading_time": 24.6246246246246,
+    "content": "Social distance has brought virtual events into the mainstream. Here's how to provide a great virtual experience to attendees and create great content.",
+    "content_format": "article",
+    "brand_entity_id": "9e7a6ac5-5733-48a4-be0e-1205c1347635",
+    "publisher_entity_id": null,
+    "brand": {
+        "public_id": "9e7a6ac5-5733-48a4-be0e-1205c1347635",
+        "name": "Knotch",
+        "type": "brand",
+        "num_contents": 174
+    },
+    "publisher": {}
+}
